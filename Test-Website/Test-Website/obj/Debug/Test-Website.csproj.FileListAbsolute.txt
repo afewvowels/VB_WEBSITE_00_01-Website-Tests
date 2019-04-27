@@ -1,0 +1,6 @@
+/Users/bluebackdev/github/VB_WEBSITE_00_01-Website-Tests/Test-Website/Test-Website/bin/Test-Website.dll
+/Users/bluebackdev/github/VB_WEBSITE_00_01-Website-Tests/Test-Website/Test-Website/bin/Test-Website.pdb
+/Users/bluebackdev/github/VB_WEBSITE_00_01-Website-Tests/Test-Website/Test-Website/obj/Debug/Test-Website.csprojAssemblyReference.cache
+/Users/bluebackdev/github/VB_WEBSITE_00_01-Website-Tests/Test-Website/Test-Website/obj/Debug/Test-Website.csproj.CoreCompileInputs.cache
+/Users/bluebackdev/github/VB_WEBSITE_00_01-Website-Tests/Test-Website/Test-Website/obj/Debug/Test-Website.dll
+/Users/bluebackdev/github/VB_WEBSITE_00_01-Website-Tests/Test-Website/Test-Website/obj/Debug/Test-Website.pdb
