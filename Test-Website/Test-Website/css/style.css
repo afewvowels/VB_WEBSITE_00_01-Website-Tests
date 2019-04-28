@@ -73,30 +73,44 @@
     display: grid;
     grid-template: 'form form sidebar' auto 'form form sidebar' auto 'footer footer sidebar' auto / 1fr 1fr 1fr; }
     #main-main #content-wrapper #formInitial {
-      background-color: teal;
+      background-color: white;
+      color: chocolate;
       grid-area: form;
       display: flex;
       align-items: center;
       justify-content: center;
-      flex-direction: column; }
+      flex-direction: column;
+      padding: 15px 0px; }
       #main-main #content-wrapper #formInitial #inputs-wrapper {
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column; }
+        flex-direction: column;
+        width: 80%; }
         #main-main #content-wrapper #formInitial #inputs-wrapper .span-wrapper {
           display: flex;
           flex-direction: column;
           align-items: flex-start;
-          justify-content: center; }
+          justify-content: center;
+          width: 100%; }
+          #main-main #content-wrapper #formInitial #inputs-wrapper .span-wrapper label {
+            font-family: "Staatliches", cursive;
+            margin-bottom: 0; }
           #main-main #content-wrapper #formInitial #inputs-wrapper .span-wrapper input {
-            width: 100%; }
-      #main-main #content-wrapper #formInitial #button-wrapper .form-button {
-        width: 90px;
-        height: 30px;
-        background-color: white;
-        color: chocolate;
-        font-family: "Staatliches", cursive; }
+            width: 100%;
+            border: 1px solid chocolate; }
+      #main-main #content-wrapper #formInitial #button-wrapper {
+        padding: 15px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%; }
+        #main-main #content-wrapper #formInitial #button-wrapper .form-button {
+          width: 90px;
+          height: 30px;
+          background-color: white;
+          color: chocolate;
+          font-family: "Staatliches", cursive; }
 
 #main-footer {
   grid-area: footer;

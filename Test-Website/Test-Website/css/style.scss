@@ -111,28 +111,45 @@ body, html {
     grid-template: 'form form sidebar' auto 'form form sidebar' auto 'footer footer sidebar' auto / 1fr 1fr 1fr;
 
     #formInitial {
-      background-color: teal;
+      background-color: white;
+      color: chocolate;
       grid-area: form;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
+      padding: 15px 0px;
       #inputs-wrapper {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        width: 80%;
+
         .span-wrapper {
           display: flex;
           flex-direction: column;
           align-items: flex-start;
           justify-content: center;
+          width: 100%;
+          label {
+            font-family: $staatliches;
+            margin-bottom: 0;
+          }
           input {
             width: 100%;
+            border: 1px solid chocolate;
           }
         }
       }
+
       #button-wrapper {
+        padding: 15px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+
         .form-button {
           width: 90px;
           height: 30px;
