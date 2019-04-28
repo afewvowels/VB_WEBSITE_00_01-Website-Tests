@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZJgog1iiaky8Op6c+JabZwAAAAACAAAAAAAQZgAAAAEAACAAAAC1w7Sv4JuR/KI65SFJk4qP5PGM+qWfFk/A2JDpHKx4EQAAAAAOgAAAAAIAACAAAADy5d5Syd8OZXaC5W2wZUwYsUQ3m0ak0nn5paEyK7jMfiAAAABxZqfBBhT5+NINXxnQwQaTqjmyvY4VUPSbXFbuAtMhKkAAAAARlu775iVK2RotyN7anBt727Yrij+zLeFnbWlzWcAdUACFiKjyIcgPNf+sZUZXhIISdfL3ayejNFTH+tsLGcaZ</EncryptedPassword>
+    <_PublishTargetUrl>ftp://keithbsmith.me/public_html/testbed/VB_WEBSITE_00_01-Website-Tests</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Default.aspx">
+      <publishTime>04/27/2019 10:29:54</publishTime>
+    </File>
+    <File Include="bin/Default.aspx.cs">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="bin/Default.aspx.designer.cs">
+      <publishTime>04/27/2019 09:59:47</publishTime>
+    </File>
+    <File Include="bin/Test-Website.dll">
+      <publishTime>04/27/2019 10:27:43</publishTime>
+    </File>
+    <File Include="bin/Test-Website.dll.config">
+      <publishTime>04/27/2019 10:00:52</publishTime>
+    </File>
+    <File Include="bin/Test-Website.pdb">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>04/27/2019 06:44:23</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>04/27/2019 06:44:23</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Content/font-awesome.css">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Content/font-awesome.min.css">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="css/style.css.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="css/style.scss">
+      <publishTime>04/27/2019 10:24:23</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>04/27/2019 10:29:54</publishTime>
+    </File>
+    <File Include="Default.aspx.cs">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Default.aspx.designer.cs">
+      <publishTime>04/27/2019 09:59:47</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Global.asax.cs">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="img/favicon/android-chrome-192x192.png">
+      <publishTime>04/27/2019 10:20:53</publishTime>
+    </File>
+    <File Include="img/favicon/android-chrome-512x512.png">
+      <publishTime>04/27/2019 10:20:53</publishTime>
+    </File>
+    <File Include="img/favicon/apple-touch-icon.png">
+      <publishTime>04/27/2019 10:20:53</publishTime>
+    </File>
+    <File Include="img/favicon/favicon-16x16.png">
+      <publishTime>04/27/2019 10:20:53</publishTime>
+    </File>
+    <File Include="img/favicon/favicon-32x32.png">
+      <publishTime>04/27/2019 10:20:53</publishTime>
+    </File>
+    <File Include="img/favicon/favicon.ico">
+      <publishTime>04/27/2019 10:20:53</publishTime>
+    </File>
+    <File Include="img/favicon/site.webmanifest">
+      <publishTime>04/27/2019 10:20:53</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/27/2019 10:00:53</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/index.d.ts">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1-vsdoc.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.min.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.3.1.slim.min.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/popper.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/popper.js.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/README.md">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js.map">
+      <publishTime>04/27/2019 06:44:24</publishTime>
+    </File>
+    <File Include="Test-Website.csproj">
+      <publishTime>04/27/2019 10:05:55</publishTime>
+    </File>
+    <File Include="Test-Website.csproj.user">
+      <publishTime>04/27/2019 07:52:49</publishTime>
+    </File>
+    <File Include="VB_WEBSITE_00_01-Website-Tests.pubxml">
+      <publishTime>04/27/2019 07:59:55</publishTime>
+    </File>
+    <File Include="VB_WEBSITE_00_01-Website-Tests.pubxml.user">
+      <publishTime>04/27/2019 10:07:32</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/27/2019 10:00:52</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
