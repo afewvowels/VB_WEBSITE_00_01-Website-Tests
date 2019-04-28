@@ -8,11 +8,11 @@ namespace TestWebsite
   {
     public void ButtonStartClicked(object sender, EventArgs args)
     {
-      buttonStart.Text = "You clicked me";
+      buttonStart.Text = "Clicked";
     }
     public void ButtonResetClicked(object sender, EventArgs args)
     {
-      buttonStart.Text = "Click me!";
+      buttonStart.Text = "Enter";
     }
   }
 }

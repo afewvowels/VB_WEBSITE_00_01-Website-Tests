@@ -39,8 +39,20 @@
     <main id="main-main">
       <div id="content-wrapper">
     	  <form id="formInitial" runat="server">
-    		  <asp:Button id="buttonStart" runat="server" Text="Click me!" OnClick="ButtonStartClicked" class="form-initial-button"/>
-          <asp:Button ID="buttonReset" runat="server" Text="Reset" OnClick="ButtonResetClicked" class="form-initial-button" />
+          <div id="inputs-wrapper">
+            <span id="spanWrapperName" class="span-wrapper">
+              <label for="inputName">Name</label>
+              <input type="text" id="inputName" />
+            </span>
+            <span id="spanWrapperIDNum" class="span-wrapper">
+              <label for="inputIDNum">ID Number</label>
+              <input type="number" id="inputIDNum" />
+            </span>
+          </div>
+          <div id="button-wrapper">
+    		    <asp:Button id="buttonStart" runat="server" Text="Enter" OnClick="ButtonStartClicked" class="form-button" />
+            <asp:Button ID="buttonReset" runat="server" Text="Reset" OnClick="ButtonResetClicked" class="form-button" />
+          </div>
     	  </form>
       </div>
     </main>
