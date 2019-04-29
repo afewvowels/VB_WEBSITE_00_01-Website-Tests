@@ -119,10 +119,6 @@
       <SubType>ASPXCodeBehind</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\style.scss" />

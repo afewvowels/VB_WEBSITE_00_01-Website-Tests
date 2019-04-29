@@ -4,15 +4,11 @@ using System.Web.UI;
 
 namespace TestWebsite
 {
-  public partial class Default : System.Web.UI.Page
+  public class Default
   {
-    public void ButtonStartClicked(object sender, EventArgs args)
+    public void ButtonResetClicked(object sender, EventArgs e)
     {
-      buttonStart.Text = "Clicked";
-    }
-    public void ButtonResetClicked(object sender, EventArgs args)
-    {
-      buttonStart.Text = "Enter";
+      inputPostContent.Text = String.Empty;
     }
   }
 }

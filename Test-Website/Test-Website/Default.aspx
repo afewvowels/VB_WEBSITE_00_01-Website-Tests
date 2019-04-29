@@ -40,17 +40,21 @@
       <div id="content-wrapper">
     	  <form id="formInitial" runat="server">
           <div id="inputs-wrapper">
-            <span id="spanWrapperName" class="span-wrapper">
-              <label for="inputName">Name</label>
-              <input type="text" id="inputName" />
+            <span id="spanWrapperPostTitle" class="span-wrapper">
+              <asp:Label runat="server" AssociatedControlID="inputPostTitle">Post Title</asp:Label>
+              <asp:Textbox type="text" id="inputPostTitle" runat="server" />
             </span>
-            <span id="spanWrapperIDNum" class="span-wrapper">
-              <label for="inputIDNum">ID Number</label>
-              <input type="number" id="inputIDNum" />
+            <span id="spanWrapperPostContent" class="span-wrapper">
+              <asp:Label runat="server" AssociatedControlID="inputPostContent">Post Content</asp:Label>
+              <asp:Textbox TextMode="multiline" id="inputPostContent" runat="server" />
+            </span>
+            <span id="spanWrapperImagePath" class="span-wrapper">
+              <asp:Label runat="server" AssociatedControlID="inputImagePath">Image Path</asp:Label>
+              <asp:Textbox type="text" id="inputImagePath" runat="server" />
             </span>
           </div>
           <div id="button-wrapper">
-    		    <asp:Button id="buttonStart" runat="server" Text="Enter" OnClick="ButtonStartClicked" class="form-button" />
+    		    <asp:Button id="buttonStart" runat="server" Text="Enter" OnClick="SubmitDataToDatabase" class="form-button" />
             <asp:Button ID="buttonReset" runat="server" Text="Reset" OnClick="ButtonResetClicked" class="form-button" />
           </div>
     	  </form>

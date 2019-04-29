@@ -136,7 +136,7 @@ body, html {
             font-family: $staatliches;
             margin-bottom: 0;
           }
-          input {
+          input, textarea {
             width: 100%;
             border: 1px solid chocolate;
           }
@@ -156,6 +156,7 @@ body, html {
           background-color: white;
           color: chocolate;
           font-family: $staatliches;
+          border: 1px solid chocolate;
         }
       }
     }

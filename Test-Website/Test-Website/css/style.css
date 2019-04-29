@@ -96,7 +96,7 @@
           #main-main #content-wrapper #formInitial #inputs-wrapper .span-wrapper label {
             font-family: "Staatliches", cursive;
             margin-bottom: 0; }
-          #main-main #content-wrapper #formInitial #inputs-wrapper .span-wrapper input {
+          #main-main #content-wrapper #formInitial #inputs-wrapper .span-wrapper input, #main-main #content-wrapper #formInitial #inputs-wrapper .span-wrapper textarea {
             width: 100%;
             border: 1px solid chocolate; }
       #main-main #content-wrapper #formInitial #button-wrapper {
@@ -110,7 +110,8 @@
           height: 30px;
           background-color: white;
           color: chocolate;
-          font-family: "Staatliches", cursive; }
+          font-family: "Staatliches", cursive;
+          border: 1px solid chocolate; }
 
 #main-footer {
   grid-area: footer;
